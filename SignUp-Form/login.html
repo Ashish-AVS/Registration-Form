@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    
+    </script>
+
+
+
+</head>
+<body>
+
+    <div  class="form-container">
+        <h1 class="header">Log-In</h1>
+        <hr>
+
+
+        <div id="email" class="form-group" >
+            <label for="email-input">Enter Your Email</label>
+        
+            <input type="email"  class="form-control" id="email-input" required>
+            <p class="email-check">Please Enter a Valid Email</p>
+        </div>
+
+
+        <div id="password" class="form-group">
+            <label for="password-input">Password</label>
+            
+            <input type="password" class="form-control" id="password-input" required>
+        </div>
+            <p id="error-message">Invalid credentials</p>
+            <button type="submit" class="btn btn-primary" id="next-button-login">Next</button>
+        <div id="backButton"><a href="signup.html">&#8592</a></div>
+
+        <div>
+            <p>Don't have an account yet?</p>
+            <a href="signup.html">Sign Up</a>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

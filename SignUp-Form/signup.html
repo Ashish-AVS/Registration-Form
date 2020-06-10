@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>Registration Page</title>
+    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+</script>
+        
+    </head>
+
+    
+
+        <body>
+
+            <!-- id="signup"  -->
+                <div class="form-container">
+                    <h1 class="header">Sign Up</h1>
+                    <hr>
+                    <div id="email" class="form-group" required>
+                        <label for="email-input">Enter Your Email</label>
+                        <input type="email" id="email-input" class="form-control" required>
+                        <p class ="valid-email">Enter  a valid email</p>
+                    </div>
+        
+        
+                    <div id="email-verification" class="form-group" required>
+                        <label for="email-verification-id">Confirm Your Email</label>
+                        <input type="email" id="email-verification-input" class="form-control" required>
+                    
+                    </div>
+
+            
+           
+    
+                <p class="email-requirements">
+                    Emails Should Match.
+                </p>
+    
+                <div id="password" class="form-group" required>
+                   
+                    <label for="password-input">Create a password</label>
+                    <input type="password" id="password-input" class="form-control" required>
+                    <p class="password-requirements">
+                        Password must be atleast 8 characters.
+                    </p>
+    
+                </div>
+    
+                <div id="password-verification" class="form-group final" required>
+                    <label for="password-verification-input">Confirm Your Password</label>
+                    <input type="password" id="password-verification-input" class="form-control" required>
+    
+                
+                    <p class="password-match">
+                        Passwords Should Match.
+                    </p>
+                </div>
+    
+                <p id="error-message">
+    
+                </p>
+    
+                <button class="btn btn-primary" id="next-button">Next</button>
+    
+                <div id="backButton">
+                    <a href="login.html">&#8592</a>
+                    </div>
+    
+                <div class="info-section">
+                    <p>Already have an account?</p>
+                    <a href="login.html">Log In!</a>
+                </div>
+            </div>
+
+            <script src="scriptSignUp.js"></script>
+   
+
+  
+        
+    </body>
+
+</html>

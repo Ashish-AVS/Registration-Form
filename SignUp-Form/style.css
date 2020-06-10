@@ -1,0 +1,40 @@
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-image:url("wallpaper3.jpg");
+    background-size: cover;
+}
+
+.form-container {
+    width: 500px;
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 250px);
+    background-color: rgba(0,0,0,0.7);
+    padding: 50px;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+    color: white;
+    }
+
+#next-button{
+    width:100%;
+}
+
+#backButton{
+    font-size: 40px;
+    display:inline-block;
+    cursor: pointer;
+}
+
+#backButton-hover {
+    color:gray;
+}
+
+.password-requirements, .email-requirements, .password-requirements, .email-check, #error-message, .valid-email, .password-match{
+    color: red;
+    font:bold;
+}
